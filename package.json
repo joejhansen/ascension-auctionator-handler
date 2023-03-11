@@ -1,0 +1,23 @@
+{
+  "name": "ascension-auctionator-handler",
+  "version": "1.0.0",
+  "description": "A tool to parse and dump Auctionator data from Ascenseion WoW to a spreadsheet format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joejhansen/ascension-auctionator-handler.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joejhansen/ascension-auctionator-handler/issues"
+  },
+  "homepage": "https://github.com/joejhansen/ascension-auctionator-handler#readme",
+  "dependencies": {
+    "luaparse": "^0.3.1",
+    "xlsx": "^0.18.5"
+  }
+}
