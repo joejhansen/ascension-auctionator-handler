@@ -31,6 +31,9 @@ const readAndDump = async () => {
     const workbook = xlsx.utils.book_new()
     xlsx.utils.book_append_sheet(workbook, worksheet, "AHDatabase")
     xlsx.writeFile(workbook, "./spreadsheet/db.xlsx")
+    // THIS IS HOW YOU PARSE THE NUMBER INTO GOLD/SILVER/BRONZE FOR LIBRECALC
+    // ="G"&QUOTIENT(B2,10000)&" S"&FLOOR(MOD(B2,10000)/100)&" C"&MOD(MOD(B2,10000),100)
+    // LMAO
 }
 
 readAndDump()
